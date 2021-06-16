@@ -4,7 +4,7 @@ import pandas
 import yan_image_embedding
 
 logo_index_df = pandas.read_json(	
-	path_or_buf = '/Downloads/myqdb_logo_index.json',
+	path_or_buf = 'myqdb_logo_index.json',
 	orient = 'records',
 	lines = True)
 
